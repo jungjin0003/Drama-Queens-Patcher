@@ -1,5 +1,5 @@
 # Drama-Queens-Patcher
-![동아리 게임 로고](https://i.namu.wiki/i/R5jwny3jZX00uRygI50CvPC7VBCsAEMRyWyXe-jNXwolIPtyxCXqioL31c4U6zjfvV65GtCEgghNmvJAus9V_DmgqMiEW8FxkoZYUwL9_MlIuwmlK-tEQgEJHErapmLPdo1LsBCWvgjfxjtnxh9uWg.webp)
+![동아리 게임 로고](https://i.namu.wiki/i/R5jwny3jZX00uRygI50CvPC7VBCsAEMRyWyXe-jNXwolIPtyxCXqioL31c4U6zjfvV65GtCEgghNmvJAus9V_DmgqMiEW8FxkoZYUwL9_MlIuwmlK-tEQgEJHErapmLPdo1LsBCWvgjfxjtnxh9uWg.webp) \
 Stove의 동아리(게임)의 CG를 Steam판 CG로 패치하는 프로그램
 ## 패치 전 준비물
 **해당 프로그램은 스팀판 동아리 게임을 일부(리소스)파일을 필요로 합니다**
