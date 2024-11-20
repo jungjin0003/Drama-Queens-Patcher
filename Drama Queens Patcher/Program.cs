@@ -12,6 +12,10 @@ namespace Drama_Queens_Patcher
         [STAThread]
         static void Main(string[] args)
         {
+            Console.WriteLine("DramaQueensPatcher Made by CrazyHacker");
+            Console.WriteLine("Github : https://github.com/jungjin0003");
+            Console.WriteLine("Blog : https://blog.crazyhacker.kr");
+            
             string StoveDramaDataPath;
             string SteamDramaDataPath;
 
@@ -31,6 +35,17 @@ namespace Drama_Queens_Patcher
                     UserCancel();
 
                 SteamDramaDataPath = dialog.FileName;
+            }
+
+            if (!File.Exists($@"{StoveDramaDataPath}\resources.assets.bak") ||
+                !File.Exists($@"{StoveDramaDataPath}\nxderesources.assets.resS"))
+            {
+                if (MessageBox.Show("이전에 패치를 진행한 기록을 발견했습니다. 이전에 패치한 적이 있나요?", "DramaQueensPatcher", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    File.Delete($@"{StoveDramaDataPath}\resources.assets.bak");
+                    File.Delete($@"{StoveDramaDataPath}\nxderesources.assets.resS");
+                    Console.WriteLine("이전 패치를 삭제했습니다");
+                }
             }
 
             File.WriteAllBytes(Path.GetTempPath() + "classdata.tpk", Properties.Resources.classdata);
