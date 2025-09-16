@@ -3,7 +3,7 @@
 Stove의 동아리(게임)의 CG를 Steam판 CG로 패치하는 프로그램
 ## 패치 전 준비물
 **해당 프로그램은 스팀판 동아리 게임을 일부(리소스)파일을 필요로 합니다**
-- [패치 프로그램](https://github.com/jungjin0003/Drama-Queens-Patcher/releases/latest/download/Drama-Queens-Patcher.zip)
+- [패치 프로그램](https://github.com/jungjin0003/Drama-Queens-Patcher/releases/latest/download/Drama-Queens-Patcher.zip) <- 클릭시 다운로드
 - Stove 동아리 시크릿 플러스
 - Steam 동아리의 resources.assets, resources.assets.resS 파일
     - 해당 파일은 여러분들이 알아서 구하세요
